@@ -6,6 +6,10 @@
     "module": "ESNext",
     "types": ["node"],
     "skipLibCheck": true,
+    "paths": {
+      "styled-system/*": ["./styled-system/*"],
+      "styled-system/css": ["./styled-system/css"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",

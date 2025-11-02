@@ -1,3 +1,4 @@
+import '../src/index.css'
 import type { Preview } from '@storybook/svelte-vite'
 
 const preview: Preview = {

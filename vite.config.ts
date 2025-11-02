@@ -12,6 +12,12 @@ const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(file
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
   plugins: [svelte()],
+  resolve: {
+    alias: {
+      'styled-system': path.resolve('./styled-system'),
+      'styled-system/css': path.resolve('./styled-system/css')
+    }
+  },
   test: {
     projects: [{
       extends: true,
