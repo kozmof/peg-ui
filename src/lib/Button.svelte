@@ -1,5 +1,4 @@
 <script lang="ts">
-  import './button.css';
   import { css } from 'styled-system/css';
 
   interface Props {
