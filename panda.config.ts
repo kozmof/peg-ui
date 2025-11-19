@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev';
-import { buttonRecipe } from './src/lib/Button/Button.recipe';
+import { buttonV0} from './src/lib/Button/Button.recipe.v0';
 
 const isStorybook = process.env.npm_lifecycle_event === 'storybook';
 
@@ -22,8 +22,8 @@ export default defineConfig({
 	theme: {
 		extend: {
 			recipes: {
-				button: buttonRecipe
-			}
+				buttonV0: buttonV0,
+			},
 		}
 	},
 

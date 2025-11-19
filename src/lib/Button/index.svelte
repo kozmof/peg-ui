@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { button } from 'styled-system/recipes'
+  import { buttonV0 } from 'styled-system/recipes'
 
   interface Props {
     /** Is this the principal call to action on the page? */
@@ -19,7 +19,7 @@
 
 <button
   type="button"
-  class={button()}
+  class={buttonV0()}
 >
   {label}
 </button>
